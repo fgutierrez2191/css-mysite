@@ -32,6 +32,17 @@ p {
     line-height: 2;
 }
 
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6
+}
+
 hr {
     border: dotted #EAF6F6 6px;
     border-bottom: none;
@@ -45,6 +56,15 @@ hr {
     padding-top: 100px;
 }
 
+.middle-container {
+    margin: 100px 0;
+}
+/*using 20 px padding on bottom of bottom container to cover the 16px of white space left by the default html padding*/
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
 .intro {
     width: 30%;
     margin: auto;
@@ -55,8 +75,10 @@ hr {
     margin: 40px auto 60px;
 }
 
-.middle-container {
-    margin: 100px 0;
+.copyright {
+  color: #EAF6F6;  
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 
